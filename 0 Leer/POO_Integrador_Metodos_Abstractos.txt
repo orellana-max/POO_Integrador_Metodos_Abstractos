@@ -1,0 +1,63 @@
+echo "#POO_Integrador_Metodos_Abstractos" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/orellana-max/POO_Integrador_Metodos_Abstractos.git
+ git push -u origin main
+
+EJERCICIO de POO con MÉTODOS ABSTRACTOS 👨‍👦 RESUELTO Paso a Paso ✅
+
+¡Nada mejor que aprender y afianzar la POO haciendo ejercicios! En esta oportunidad, veremos cómo trabajar con polimorfismo y métodos abstractos, mediante el modelado y codificación de una empresa que dispone de empleados que cobran sus salarios de diferentes formas. Detectaremos las clases del enunciado y las plasmaremos en UML. Luego, pasaremos tal modelo a un proyecto de Java y lo codificaremos.
+
+Link hacia el enunciado: https://drive.google.com/file/d/1vjpXVOkJNmFsORJnEV5VgOFpWAUjNy9E/view
+
+link al vide: https://youtu.be/gHy4Ls7E49c
+
+
+
+EJERCICIO INTEGRADOR DE POO IV
+
+Conceptos aplicados
+Clases y Objetos. Estado. Identidad. Comportamiento. Encapsulamiento. Modificadores de acceso.
+Métodos getter/setter. Palabra this. Constructores. Método toString. Miembros estáticos.
+Enumerados. Principio “Tell, don’t ask”. Diagrama de clases UML. Relaciones de asociación y
+dependencia. Listas de objetos con ArrayList. Ciclo For Each. Uso de iteradores. Algoritmos con
+colecciones. Herencia. Palabra super. Upcasting. Operador instanceof. Downcasting. Clases
+abstractas. Polimorfismo. Sobrescritura de métodos. Métodos abstractos.
+Podés aprender todos estos conceptos y más en esta playlist.
+
+Solución
+El diagrama UML y el proyecto de Java de este ejercicio lo encontrarás resuelto en este repositorio.
+La explicación de cómo llegar a la solución de este ejercicio la encontrarás en este video.
+
+Enunciado
+
+Cierta empresa requiere una aplicación informática para administrar los datos de su personal, del
+cual se conoce: número de DNI, nombre, apellido y año de ingreso. Existen dos categorías de
+empleados: con salario fijo y a comisión.
+Los empleados a comisión tienen un salario mínimo, un número de clientes captados y un monto a
+cobrar por cada cliente captado. El salario se obtiene multiplicando los clientes captados por el
+monto por cliente. Si el salario obtenido por los clientes captados no llega a cubrir el salario mínimo,
+cobrará el salario mínimo.
+
+Los empleados con salario fijo tienen un sueldo básico y un porcentaje adicional en función del
+número de años que llevan la empresa:
+• Menos de 2 años: Nada • De 2 a 5 años: 5% más. • Más de 5 años: 10% más.
+
+Basado en el enunciado descripto, realizá:
+
+A) El diagrama de clases que lo modelice, con sus relaciones, atributos y métodos.
+
+B) La implementación del método mostrarSalarios que imprima por consola el nombre
+completo de cada empleado junto a su salario.
+
+C) La implementación del método empleadoConMasClientes que devuelva al empleado con
+mayor cantidad de clientes captados (se supone único).
+
+
+
+
+
+
+
