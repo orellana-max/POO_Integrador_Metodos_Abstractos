@@ -25,7 +25,17 @@ public class Empresa {
     }
 
     public Empleado empleadoConMasClientes() {
-        // Empleado emp = new EmpleadoAComision();
-        return null;
+        Empleado elMayor = null;
+        int max= -1;
+        for (Empleado e : empleados) {
+            if (e instanceof EmpleadoAComision) {
+                EmpleadoAComision eac = (EmpleadoAComision) e;
+                if(eac.getCantClientesCaptados() > max){
+                    max = eac.getCantClientesCaptados();
+                    elMayor = eac;
+                }
+            }
+        }
+        return elMayor;
     }
 }

@@ -16,9 +16,9 @@ public class Principal {
         emp.agregarEmpleado(new EmpleadoAComision("123", "Leo", "Torres", 2018, 30000, 200, 100));
         emp.agregarEmpleado(new EmpleadoSalarioFijo("123", "Maria", "Pérez", 2015, 100000));
                 
-        emp.mostrarSalario();
+        // emp.mostrarSalario();
         
-        
+        System.out.println(emp.empleadoConMasClientes().nombreCompleto());
         
         
     }

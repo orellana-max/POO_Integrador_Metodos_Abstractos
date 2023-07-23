@@ -25,6 +25,10 @@ public class EmpleadoAComision extends Empleado {
         }
         return sal;
     }
-    
+
+    public int getCantClientesCaptados() {
+        return cantClientesCaptados;
+    }
+     
     
 }
